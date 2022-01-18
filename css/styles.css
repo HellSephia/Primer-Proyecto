@@ -1,0 +1,420 @@
+header {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  top: 0%;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  align-items: center;
+  box-shadow: 0px 0px 9px rgb(0 0 0 / 45%);
+}
+
+.txt {
+  font-size: 23px;
+  font-family: "Kanit", sans-serif;
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex; /* Organizar en columnas */
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+.header_nav-feedback {
+  width: 250px;
+  height: 46px;
+  align-items: center;
+  border-bottom-style: none;
+  background-color: rgb(29, 86, 255);
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  margin-top: 6px;
+  margin-right: 60px;
+  justify-content: space-around;
+}
+
+.header_nav-feedback a {
+  text-decoration: none;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+/*  .header_nav-feedback:hover {
+    background-color: rgb(48, 48, 48);
+  } */
+
+.header_nav-feedback a:hover {
+  color: white;
+}
+
+.menu {
+  width: 50%;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+/* inicio parte 1 */
+.parte_1 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 80px;
+  background-color: rgb(255, 255, 255);
+}
+.contenedorL {
+  position: absolute;
+  width: 50%;
+  height: 90vh;
+  margin-right: -50%;
+  padding-left: 7.5%;
+  top: 13%;
+  background-color: rgb(255, 255, 255);
+}
+.contenedorR {
+  position: absolute;
+  width: 40%;
+  height: 90vh;
+  top: 13%;
+  margin-left: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.textPrincipal {
+  font-family: "Newsreader", sans-serif;
+  font-size: 60px;
+  color: rgb(31, 31, 31);
+  z-index: 1;
+}
+
+.imgCelular {
+  border-style: none;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+
+.celular1 {
+  background-color: rgb(255, 255, 255);
+}
+
+.gif1 {
+  height: 590px;
+  right: 13px;
+  position: absolute;
+  top: 4px;
+  border-radius: 10%;
+}
+
+.textParrafo {  
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: grey;
+}
+
+.imgGradiente {
+  z-index: 0;
+  right: -150px;
+  position: absolute;
+  top: 5px;
+  width: 600px;
+}
+
+.imgCirculopq {
+  z-index: 2;
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  right: -240px;
+  top: 70px;
+}
+
+.cruz { 
+  z-index: 2;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: 270px;
+  top: 350px;
+}
+/* end parte 1 */
+
+/* inicio parte 2*/
+
+.imgBackgroundparte2 {
+  width: 1700px;
+  height: 1200px;
+  position: absolute;
+}
+
+.parte2txt {
+  font-family: "Newsreader", sans-serif;
+  font-size: 100px;
+  color: rgb(255, 238, 238);
+  position: absolute;
+  bottom: -800px;
+  left: 105px;
+}
+
+.button2 {
+  width: 250px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  background: none;
+  border: solid 3px white;
+  border-radius: 50px;
+  top: 1600px;
+  left: 105px;
+}
+
+.button2 a {
+  text-decoration: none;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.button2 a:hover {
+  color: black;
+}
+
+/* end parte 2 */
+
+/* inicio parte 3 */
+
+.imgCelular{
+  position: absolute;
+
+}
+.gif2 {
+  height: 590px;
+  position: absolute;
+  border-radius: 10%;
+  left: 210px;
+  bottom: -1999px;
+}
+
+.imgCelular2 {
+  border-style: none;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  left: 200px;
+  bottom: -2000px;
+}
+
+.imgGradiente2 {
+  z-index: 0;
+  position: absolute;
+  width: 350px;
+  bottom: -1880px;
+  left: 70px;
+}
+
+.imgCirculopq2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: -2100px;
+}
+
+.cruz2 { 
+z-index: 2;
+position: absolute;
+width: 400px;
+height: 400px;
+bottom: -1700px;
+left: 330px;
+}
+
+.textoyimagenes1 {
+  z-index: 4;
+  position: absolute;
+  bottom: -1700px;
+  left: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono1 {
+  font-size: 80px;
+  color: rgb(129, 20, 255) 
+}
+
+.icono2 {
+  font-size: 80px;
+  color: rgb(129, 20, 255) 
+}
+
+.icono3 {
+  font-size: 80px;
+  color: rgb(129, 20, 255) 
+}
+
+.icono4 {
+  font-size: 80px;
+  color: rgb(129, 20, 255) 
+}
+
+.titulo1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo4 {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texto1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.texto2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.texto3 {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.texto4 {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.textoyimagenes2 {
+  z-index: 4;
+  position: absolute;
+  bottom: -1670px;
+  left: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textoyimagenes3 {
+  z-index: 4;
+  position: absolute;
+  bottom: -2100px;
+  left: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textoyimagenes4 {
+  z-index: 4;
+  position: absolute;
+  bottom: -2150px;
+  left: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* end parte 3 */
+
+/* inicio part 4 */
+
+html {
+  width: 1700px;
+}
+
+
+.footer {
+  position: relative;
+  top: 2200px;
+  width: 1700px;
+  height: 150px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  color: gray;
+  justify-content: center;
+}
+
+.footer-options {
+  display: block;
+}
+
+
+.footerlist li { 
+  display: inline;
+}
+
+.programateFooter {
+  padding-left: 20px;
+}
+/* end parte 4 */
+
